@@ -1,0 +1,11 @@
+Changes
+LICENSE
+MANIFEST
+MANIFEST.SKIP
+META.json
+META.yml
+Makefile.PL
+README
+lib/Plack/Middleware/DetectMobileBrowsers.pm
+t/00-load.t
+t/release-pod-syntax.t
