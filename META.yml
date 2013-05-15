@@ -16,4 +16,4 @@ requires:
   Plack: 0
 resources:
   repository: https://github.com/heikojansen/plack-middleware-detectmobilebrowsers.git
-version: 0.01
+version: 0.02
