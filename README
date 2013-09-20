@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution Plack-Middleware-DetectMobileBrowsers,
-version 0.02:
+version 0.03:
 
   Automatically set a flag in the environment if a mobile client is detected
 
