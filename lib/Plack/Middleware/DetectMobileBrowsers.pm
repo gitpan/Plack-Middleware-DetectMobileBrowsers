@@ -1,7 +1,7 @@
 
 package Plack::Middleware::DetectMobileBrowsers;
 {
-  $Plack::Middleware::DetectMobileBrowsers::VERSION = '0.03';
+  $Plack::Middleware::DetectMobileBrowsers::VERSION = '0.04';
 }
 
 # ABSTRACT: Automatically set a flag in the environment if a mobile client is detected
@@ -43,9 +43,11 @@ sub call {
 
 1;
 
-
+__END__
 
 =pod
+
+=encoding utf-8
 
 =head1 NAME
 
@@ -53,7 +55,7 @@ Plack::Middleware::DetectMobileBrowsers - Automatically set a flag in the enviro
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -91,8 +93,6 @@ officially blessed extensions" - which does not apply to this module.
 You may, however, set the key to C<psgix.mobile_client> yourself
 by using the C<env_key> option mentioned before.
 
-=encoding utf-8
-
 =head1 REGEX VERSION
 
 B<2013-09-09>
@@ -125,13 +125,9 @@ Heiko Jansen <hjansen@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Heiko Jansen.
+This software is copyright (c) 2014 by Heiko Jansen.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
